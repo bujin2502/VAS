@@ -1,10 +1,10 @@
 **O aplikaciji**
+
 Ova aplikacija simulira ponašanje jednog jata (ptica, riba). Na početku se slučajno generira 20 agenata koji predstavljaju člana jata i kreću se u slučajnom pravcu. Prilaskom drugom agentu dolazi do ponašanja jednog jata.
 
 **Uvodne napomene**
 Prije nego što se pokrene aplikacija, potrebno je ispuniti određene preduvijete.
-Potrebno je imati instaliran Prosody server
-[Prosody IM]([https://pages.github.com/](https://prosody.im/)).
+Potrebno je imati instaliran Prosody server. Za instalaciju pogledajte na [Prosody IM](https://prosody.im/).
 
 
 
