@@ -14,7 +14,7 @@ Agenti su od boid0 do boid19, a password je pass.
 
 Nakon toga preporuka je učiniti sljedeće:
 
-**Kreiranje virtualno okruženje**:
+**Kreiranje virtualnog okruženja**:
    ```bash
    python3 -m venv .VAS
    ```
