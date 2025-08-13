@@ -1,5 +1,4 @@
-import random, pygame, spade
-import math
+import random, pygame, spade, math
 
 from pygame.math import Vector2
 
@@ -12,7 +11,7 @@ MAX_SPEED = 3
 MAX_FORCE = 0.05
 PERCEPTION = 50
 SEPARATION = 20
-NUM_OBSTACLES = 5
+NUM_OBSTACLES = 10
 
 WHITE = (255, 255, 255)
 GRAY = (200, 200, 200)
@@ -183,7 +182,7 @@ async def stop_all_agents(agents):
 
 async def main():
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
-    pygame.display.set_caption("Boids simulacija s gumbima")
+    pygame.display.set_caption("Boids simulacija")
 
     start_button = Button(50, HEIGHT - 60, 100, 40, 'Kreni')
     stop_button = Button(170, HEIGHT - 60, 100, 40, 'Stani')
