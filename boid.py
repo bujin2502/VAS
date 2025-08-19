@@ -190,7 +190,7 @@ async def main():
     exit_button = Button(410, HEIGHT - 60, 100, 40, 'Izađi')
     buttons = [start_button, stop_button, reset_button, exit_button]
 
-    obstacles = [   Obstacle((random.uniform(50, WIDTH - 50), random.uniform(50, HEIGHT - 50)), radius=15) for _ in range(NUM_OBSTACLES)]
+    obstacles = [   Obstacle((random.uniform(50, WIDTH - 50), random.uniform(50, HEIGHT - 50)), radius=30) for _ in range(NUM_OBSTACLES)]
 
     agent_accounts = [(f"boid{i}@localhost", "pass") for i in range(NUM_BOIDS)]
     flock = []
